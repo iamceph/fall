@@ -19,7 +19,9 @@ toothpick {
     nmsRevision = "R0.1-SNAPSHOT"
 
     upstream = "Purpur"
-    upstreamBranch = "ver/1.16.5"
+    upstreamBranch = "origin/ver/1.16.5"
+
+    paperclipName = "fallclip"
 
     server {
         project = project(":$forkNameLowercase-server")
